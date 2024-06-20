@@ -8,7 +8,8 @@
 }
 body {
   background-color: #d2d2d2;
-  background-image: repeating-linear-gradient(
+
+  /*   background-image: repeating-linear-gradient(
       to right,
       transparent 0 100px,
       #25283b22 100px 101px
@@ -17,7 +18,7 @@ body {
       to bottom,
       transparent 0 100px,
       #25283b22 100px 101px
-    );
+    ); */
 }
 
 /* body::before {
@@ -89,28 +90,27 @@ body {
   transform: translateX(-50%);
   width: min(1400px, 100vw);
   height: max-content;
-  padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   z-index: 1;
 }
 .banner .content h1 {
   font-family: "ICA Rubrik";
-  font-size: 16em;
+  font-size: 4em;
   line-height: 1em;
   color: #25283b;
   position: relative;
 }
-.banner .content h1::after {
+/* .banner .content h1::after {
   position: absolute;
   inset: 0 0 0 0;
   content: attr(data-content);
   z-index: 2;
   -webkit-text-stroke: 2px #d2d2d2;
   color: transparent;
-}
+} */
 .banner .content .author {
   font-family: Poppins;
   text-align: right;
@@ -146,8 +146,8 @@ body {
   .banner .content h1 {
     text-align: center;
     width: 100%;
-    text-shadow: 0 10px 20px #000;
-    font-size: 7em;
+    /* text-shadow: 0 10px 20px #000; */
+    font-size: 4em;
   }
   .banner .content .author {
     color: #fff;
@@ -173,6 +173,6 @@ body {
       translateZ(180px);
   }
   .banner .content h1 {
-    font-size: 5em;
+    font-size: 3em;
   }
 }
